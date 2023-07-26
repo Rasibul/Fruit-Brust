@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header class="max-w-screen-xl mx-auto ">
+    <header class="w-[90%] mx-auto ">
         <!-- nav section start here -->
         <nav>
             <div>
@@ -98,8 +98,9 @@
 <!-- nav section end here -->
 
 <!-- slider section star here -->
-          <section class="max-w-screen-xl mx-auto">
+          <section class="relative">
             <div class="carousel w-full">
+              <!-- slide 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
                   <div class="hero min-h-screen-[calc(100vh-100px)]" style="background-image: url(./images/banner1.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -119,6 +120,7 @@
                     <a href="#slide2" class="btn btn-circle bg-[#000] text-white sm:text-base">❯</a>
                   </div>
                 </div> 
+                <!-- slide 2 -->
                 <div id="slide2" class="carousel-item relative w-full">
                   <div class="hero min-h-screen" style="background-image: url(./images/banner2.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -134,10 +136,11 @@
                     </div>
                   </div>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle bg-[#000] text-white sm:text-base">❮</a> 
-                    <a href="#slide2" class="btn btn-circle bg-[#000] text-white sm:text-base">❯</a>
+                    <a href="#slide1" class="btn btn-circle bg-[#000] text-white sm:text-base">❮</a> 
+                    <a href="#slide3" class="btn btn-circle bg-[#000] text-white sm:text-base">❯</a>
                   </div>
                 </div> 
+                <!-- slide 3 -->
                 <div id="slide3" class="carousel-item relative w-full">
                   <div class="hero min-h-screen" style="background-image: url(./images/banner3.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -153,10 +156,11 @@
                     </div>
                   </div>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle bg-[#000] text-white sm:text-base">❮</a> 
-                    <a href="#slide2" class="btn btn-circle bg-[#000] text-white sm:text-base">❯</a>
+                    <a href="#slide2" class="btn btn-circle bg-[#000] text-white sm:text-base">❮</a> 
+                    <a href="#slide4" class="btn btn-circle bg-[#000] text-white sm:text-base">❯</a>
                   </div>
                 </div> 
+                <!-- slide 4 -->
                 <div id="slide4" class="carousel-item relative w-full">
                   <div class="hero min-h-screen" style="background-image: url(./images/banner4.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -172,11 +176,31 @@
                     </div>
                   </div>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle bg-[#000] text-white sm:text-base">❮</a> 
-                    <a href="#slide2" class="btn btn-circle bg-[#000] text-white sm:text-base">❯</a>
+                    <a href="#slide3" class="btn btn-circle bg-[#000] text-white sm:text-base">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-[#000] text-white sm:text-base">❯</a>
                   </div>
                 </div>
               </div>
+              <div
+          class="hidden lg:grid grid-cols-5 w-[1196px] ml-12 -mt-16  absolute bg-white items-center p-5"
+        >
+          <div class="flex justify-center">
+            <img src="./images/fruit1.png" alt="" />
+          </div>
+          <div class="flex justify-center">
+            <img src="./images/fruit2.png" alt="" />
+          </div>
+          <div class="flex justify-center">
+            <img src="./images/fruit3.png" alt="" />
+          </div>
+          <div class="flex justify-center">
+            <img src="./images/fruit4.png" alt="" />
+          </div>
+          <div class="flex justify-center">
+            <img src="./images/fruit5.png" alt="" />
+          </div>
+        </div>
+              
 
           </section>
           <!-- slider section end here -->
