@@ -76,10 +76,10 @@
 
     <!-- slider section star here -->
     <section class="relative">
-      <div class="carousel w-full">
+      <div class="carousel w-full rounded-3xl h-80 sm:h-[calc(100vh-100px)]">
         <!-- slide 1 -->
         <div id="slide1" class="carousel-item relative w-full">
-          <div class="hero min-h-screen-[calc(100vh-100px)]" style="background-image: url(./images/banner1.png);">
+          <div class="hero" style="background-image: url(./images/banner1.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-xl">
@@ -158,7 +158,7 @@
           </div>
         </div>
       </div>
-      <div class="hidden lg:grid grid-cols-5 w-11/12 ml-12 -mt-16  absolute bg-white items-center p-5">
+      <div class="hidden lg:grid grid-cols-5 w-11/12 ml-12 -mt-11  absolute bg-white items-center p-5">
         <div class="flex justify-center">
           <img src="./images/fruit1.png" alt="" />
         </div>
@@ -178,9 +178,10 @@
     </section>
     <!-- slider section end here -->
   </header>
+  <!-- main section start here -->
   <main>
     <!-- count down section -->
-    <section class="w-[90%] mx-auto mt-[100px]">
+    <section class="w-[90%] mx-auto mt-[150px]">
       <div class="flex flex-col lg:flex-row justify-between items-center   lg:gap-16">
         <div class="flex-1 space-y-6">
           <h1 class="text-5xl font-extrabold">Deal of the day</h1>
@@ -447,19 +448,31 @@
 
     <!-- team section start here -->
     <section class="w-[90%] mx-auto mt-12">
-      <div class="hero " style="background-image: url(./images/team.png)">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content  text-neutral-content">
-          <div class="max-w-xl">
-            <h1 class="mt-10 text-5xl  font-extrabold">Meet the team section </h1>
-            <p class="mt-5 text-base font-normal">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
-              Latin literature from 45 BC, making it over 2000 years old.</p>
-            <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 md:justify-center md:items-center">
-              <div class="">
-                <img class="mb-4" src="./images/member1.png" alt="">
-                <h1>Awlad Hossain</h1>
+      <div class="hero rounded-2xl" style="background-image: url(./images/team.png)">
+        <div class="hero-overlay rounded-4xl py-20 bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content flex flex-col">
+          <div class="max-w-xl mt-8 lg:mt-20">
+            <h1 class="text-3xl sm:text-5xl font-extrabold text-white">
+              Meet The Team Section
+            </h1>
+            <p class=" text-base font-normal text-white my-7">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old.
+            </p>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <!-- team member 1 -->
+            <div class="card shadow-xl">
+              <figure class="">
+                <img src="./images/member1.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h1 class="card-title text-white text-2xl font-bold">
+                  Awlad Hossain
+                </h1>
                 <p>Fruits Expert</p>
-                <div class="flex gap-3">
+                <div class="card-actions">
                   <a href="">
                     <i class="fa-brands fa-facebook text-[#F85559]"></i>
                   </a>
@@ -471,11 +484,18 @@
                   </a>
                 </div>
               </div>
-              <div class="">
-                <img class="mb-4"" src="./images/member2.png" alt="">
-                <h1>Awlad Hossain</h1>
+            </div>
+            <!-- team member 2 -->
+            <div class="card shadow-xl">
+              <figure class="">
+                <img src="./images/member2.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h1 class="card-title text-white text-2xl font-bold">
+                  Safia Chowdhury
+                </h1>
                 <p>Fruits Expert</p>
-                <div class="flex gap-3">
+                <div class="card-actions">
                   <a href="">
                     <i class="fa-brands fa-facebook text-[#F85559]"></i>
                   </a>
@@ -487,11 +507,18 @@
                   </a>
                 </div>
               </div>
-              <div class="">
-                <img class="mb-4" src="./images/member3.png" alt="">
-                <h1>Awlad Hossain</h1>
+            </div>
+            <!--team member 3 -->
+            <div class="card shadow-xl">
+              <figure class="">
+                <img src="./images/member3.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h1 class="card-title text-white text-2xl font-bold">
+                  Rokib Hossain
+                </h1>
                 <p>Fruits Expert</p>
-                <div class="flex gap-3">
+                <div class="card-actions">
                   <a href="">
                     <i class="fa-brands fa-facebook text-[#F85559]"></i>
                   </a>
@@ -503,11 +530,18 @@
                   </a>
                 </div>
               </div>
-              <div class="">
-                <img class="mb-4" src="./images/member4.png" alt="">
-                <h1>Awlad Hossain</h1>
+            </div>
+            <!--  team member 4 -->
+            <div class="card shadow-xl">
+              <figure class="">
+                <img src="./images/member4.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h1 class="card-title text-white text-2xl font-bold">
+                  Chaity
+                </h1>
                 <p>Fruits Expert</p>
-                <div class="flex gap-3">
+                <div class="card-actions">
                   <a href="">
                     <i class="fa-brands fa-facebook text-[#F85559]"></i>
                   </a>
@@ -524,18 +558,167 @@
         </div>
       </div>
     </section>
-
-
-
     <!-- team section end  here -->
 
+    <!--choose section start here  -->
+    <section class="w-[90%] mx-auto ">
+      <div class="text-center max-w-xl mt-10 lg:mt-20 mx-auto">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-fruit-secondary">
+          Why Choose Us
+        </h1>
+        <p class="font-medium text-[#121212] my-7">
+          Contrary to popular belief, is not simply random text. It has roots
+          in a piece of classical Latin literature from 45 BC, making it over
+          2000 years old.
+        </p>
+      </div>
+      <div class="grid lg:grid-cols-3 gap-12 items-center justify-center">
+        <div class="order-2 sm:order-first">
+          <div class="text-center sm:text-left sm:flex gap-3 items-center mb-10">
+            <div class=" p-3 rounded-full inline-block">
+              <img class="w-[60px] h-[60px]" src="./images/group 1.svg" alt="" />
+            </div>
+            <div>
+              <h1 class="text-2xl text-[#121212] font-extrabold">
+                Dedicated Team
+              </h1>
+              <div class="flex justify-center mt-2 sm:justify-start">
+                <hr class="w-24 border-black border" />
+              </div>
+              <p class="font-medium text-[#121212] pt-3">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <div class="text-center sm:text-left sm:flex gap-3 items-center mb-10">
+            <div class="p-3 rounded-full inline-block">
+              <img class="w-[60px] h-[60px]" src="./images/love 1.svg" alt="" />
+            </div>
+            <div>
+              <h1 class="text-2xl font-extrabold text-[#121212]">
+                Fresh is Best
+              </h1>
+              <div class="flex justify-center mt-2 sm:justify-start">
+                <hr class="w-24 border-black border" />
+              </div>
+              <p class="font-medium text-[#121212] pt-3">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <div class="text-center sm:text-left sm:flex gap-3 items-center">
+            <div class="p-3 rounded-full inline-block">
+              <img class="w-[60px] h-[60px]" src="./images/gift-box 1.svg" alt="" />
+            </div>
+            <div>
+              <h1 class="text-2xl font-extrabold text-[#121212]">
+                Gift Certificates
+              </h1>
+              <div class="flex justify-center mt-2 sm:justify-start">
+                <hr class="w-24 border-black border" />
+              </div>
+              <p class="font-medium text-[#121212] pt-3">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="order-1 flex justify-center">
+            <img src="./images/whychoose1.png" alt="" />
+          </div>
+        </div>
+        <div class="order-3">
+          <div class="text-center sm:flex flex-row-reverse gap-3 mb-10 items-center">
+            <div class="p-3 rounded-full inline-block">
+              <img class="w-[60px] h-60px" src="./images/fruit 1.svg" alt="">
+            </div>
+            <div class="sm:text-right">
+              <h1 class="text-2xl font-extrabold text-[#121212]">
+                Integrated Supplier
+              </h1>
+              <div class="flex justify-center mt-2 sm:justify-end">
+                <hr class="w-24 border-black border" />
+              </div>
+              <p class="font-medium text-[#121212] pt-3">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <div class="text-center sm:flex flex-row-reverse gap-3 mb-10 items-center">
+            <div class="p-3 rounded-full inline-block">
+              <img class="w-[60px] h-[60px]" src="./images/ice-cream 1.svg" alt="" />
+            </div>
+            <div class="sm:text-right">
+              <h1 class="text-2xl font-extrabold text-[#121212]">
+                Sustainable Practice
+              </h1>
+              <div class="flex justify-center mt-2 sm:justify-end">
+                <hr class="w-24 border-black border" />
+              </div>
+              <p class="font-medium text-[#121212] pt-3">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <div class="text-center sm:flex flex-row-reverse gap-3 items-center">
+            <div class="p-3 rounded-full inline-block">
+              <img class="w-[60px] h-[60px]" src="./images/like 1.svg" alt="" />
+            </div>
+            <div class="sm:text-right">
+              <h1 class="text-2xl font-extrabold text-[#121212]">
+                The Benefits Only
+              </h1>
+              <div class="flex justify-center mt-2 sm:justify-end">
+                <hr class="w-24 border-black border" />
+              </div>
+              <p class="font-medium text-[#121212] pt-3">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- choose section end here -->
   </main>
-  <footer>
-    <!-- footer section start here -->
-    
+  <!-- main section end here -->
+  <!-- footer section start here -->
 
+  <footer class="footer footer-center p-10 bg-[#121212] text-white mt-28 py-24">
+    <div class="flex items-center gap-4">
+      <img src="./images/logo.png" alt="" class="w-8 sm:w-14" />
+      <h1 class="text-xl sm:text-3xl font-bold">Fruit Burst</h1>
+    </div>
+    <div class="grid grid-cols-3  gap-5 items-center">
+            <a>Home</a>
+            <a>About us</a>
+            <a>Shop</a>
+            <a>All Fruits</a>
+            <a>Support</a>
+            <a>My Account</a>
+    </div>
+    <div>
+      <div class="grid grid-cols-3 sm:grid-flow-col gap-5 items-center">
+        <a href="">
+          <i class="fa-brands fa-facebook text-white"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter text-white"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-linkedin text-white"></i>
+        </a>
+      </div>
+    </div>
   </footer>
-
+<!-- footer section end here -->
 </body>
 
 </html>
